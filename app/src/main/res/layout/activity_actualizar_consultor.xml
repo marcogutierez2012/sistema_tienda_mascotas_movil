@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActualizarConsultorActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR CONSULTOR"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtcodconsul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtnomconsul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese nombres"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtapeconsul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese apellidos"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtdniconsul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese dni"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtcorreoconsul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese correo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtcodesp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese codigo de especialidad"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnActualizarConsultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnRegresarListadoConsultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar al listado" />
+
+</LinearLayout>

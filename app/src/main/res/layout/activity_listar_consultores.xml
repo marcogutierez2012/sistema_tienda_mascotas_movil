@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListarConsultoresActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTA DE CONSULTORES"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDatoConsultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiedtDatoConsultor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese Nombre/Apellido/Dni" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnListarConsultores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Listar" />
+
+        <Button
+            android:id="@+id/btnConsultarConsultor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Consultor" />
+
+        <Button
+            android:id="@+id/btnNuevoConsultor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nuevo" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConsultorMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú" />
+
+    <ListView
+        android:id="@+id/lvConsultores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

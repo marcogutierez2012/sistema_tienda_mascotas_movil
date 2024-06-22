@@ -1,0 +1,38 @@
+<!-- list_item_pago.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código: "/>
+
+    <TextView
+        android:id="@+id/textNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres: "/>
+
+    <TextView
+        android:id="@+id/textDni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dni: "/>
+
+    <TextView
+        android:id="@+id/textCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: "/>
+
+    <TextView
+        android:id="@+id/textEspecialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidad: "/>
+
+</LinearLayout>

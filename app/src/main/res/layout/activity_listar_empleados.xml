@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListarEmpleadosActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTADO DE EMPLEADOS"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDatoEmpleado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiedtDatoEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese Nombre/Apellido/Dni del empleado" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnListarEmpleados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Listar" />
+
+        <Button
+            android:id="@+id/btnConsultarEmpleado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Consultar" />
+
+        <Button
+            android:id="@+id/btnNuevoEmpleado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nuevo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMenuEmpleado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú" />
+
+    <ListView
+        android:id="@+id/lvEmpleados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
